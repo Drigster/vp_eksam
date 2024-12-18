@@ -48,7 +48,7 @@
 		<span class="h-4 text-red-500">{$errors.sugu}</span>
 	</div>
 	<div class="flex flex-col gap-1">
-		<label for="varv">Vali oma lemmik varv</label>
+		<label for="varv">Vali oma üleriiete värv</label>
 		<select
 			id="varv"
 			class="h-12 rounded-md p-2"
@@ -64,7 +64,7 @@
 		<div class="flex gap-1" class:hidden={!varviLisamine}>
 			<input
 				type="text"
-				placeholder="Varvi nimi"
+				placeholder="Ei ole valitud"
 				class="h-12 w-full rounded-md border-2 p-2"
 				bind:this={varviInput}
 				bind:value={varv}
@@ -84,7 +84,7 @@
 						varviLisamine = !varviLisamine;
 					}}
 				>
-					{varviLisamine ? 'Sulge' : 'Lisa varvi'}
+					{varviLisamine ? 'Sulge' : 'Lisa värvi'}
 				</button>
 			</label>
 		</div>

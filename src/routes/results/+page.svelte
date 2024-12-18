@@ -22,7 +22,7 @@
 	<table class="w-full rounded-lg border-2 text-left rtl:text-right">
 		<thead class="uppercase">
 			<tr>
-				<th scope="col" class="px-6 py-3">Varvi nimi</th>
+				<th scope="col" class="px-6 py-3">Värvi nimi</th>
 				<th scope="col" class="px-6 py-3 text-center">Mehed</th>
 				<th scope="col" class="px-6 py-3 text-center">Naised</th>
 			</tr>
