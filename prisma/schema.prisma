@@ -1,0 +1,18 @@
+datasource db {
+  provider = "mysql"
+  url      = "mysql://if24:if24pass@localhost:3306/if24_gabriel_joe"
+}
+
+generator kysely {
+  provider = "prisma-kysely"
+
+  output   = "../src/lib/db"
+  fileName = "schema.d.ts"
+}
+
+model Varv {
+  id     Int    @id @default(autoincrement())
+  name   String
+  mehed  Int
+  naised Int
+}
