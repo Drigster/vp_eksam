@@ -41,7 +41,7 @@
 	<div class="flex flex-col gap-1">
 		<label for="sugu">Vali oma sugu</label>
 		<select id="sugu" name="sugu" class="h-12 rounded-md p-2">
-			<option value="">Vali sugu</option>
+			<option value="">Ei ole valitud</option>
 			<option value="Mees">Mees</option>
 			<option value="Naine">Naine</option>
 		</select>
@@ -64,7 +64,7 @@
 		<div class="flex gap-1" class:hidden={!varviLisamine}>
 			<input
 				type="text"
-				placeholder="Ei ole valitud"
+				placeholder="Värvi nimi"
 				class="h-12 w-full rounded-md border-2 p-2"
 				bind:this={varviInput}
 				bind:value={varv}

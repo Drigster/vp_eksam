@@ -12,7 +12,6 @@
 	"dependencies": {
 		"@o7/icon": "^0.3.25",
 		"@sveltejs/adapter-node": "^5.2.10",
-		"better-sqlite3": "^11.7.0",
 		"kysely": "^0.27.5",
 		"mysql2": "^3.11.5",
 		"sveltekit-superforms": "^2.22.1",
